@@ -159,7 +159,7 @@ module.exports = {
       var emoji = answers.emoji !== 'none' ? answers.emoji.trim() + ' ' : '';
 
       var scope = answers.scope.trim();
-      scope = scope ? '(' + answers.scope.trim() + ')' : '';
+      scope = scope ? ' (' + answers.scope.trim() + ')' : '';
 
       // Hard limit this line
       var head = (issue + emoji + answers.type + scope + ': ' + answers.subject.trim()).slice(0, maxLineWidth);

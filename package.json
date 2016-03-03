@@ -1,6 +1,6 @@
 {
   "name": "cz-sparkbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Commitizen template for Sparkbox projects",
   "main": "index.js",
   "scripts": {
