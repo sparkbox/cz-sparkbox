@@ -1,0 +1,23 @@
+{
+  "name": "cz-sparkbox",
+  "version": "1.0.0",
+  "description": "Commitizen template for Sparkbox projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "commitizen",
+    "sparkbox"
+  ],
+  "author": "Rob Tarr",
+  "license": "ISC",
+  "dependencies": {
+    "node-emoji": "^1.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "."
+    }
+  }
+}
